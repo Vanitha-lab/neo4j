@@ -7,10 +7,46 @@ node {
   font-size: 10px;
 }
 relationship.SON_OF {
-  color: #57C7E3;
-  border-color: #23b3d7;
+  color: #F16667;
+  border-color: #eb2728;
   text-color-internal: #FFFFFF;
-  shaft-width: 3px;
+  shaft-width: 2px;
+}
+relationship.SISTER_OF {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  shaft-width: 2px;
+}
+relationship.BROTHER_OF {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  shaft-width: 2px;
+}
+relationship.DAD_OF {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  shaft-width: 2px;
+}
+relationship.MOM_OF {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  shaft-width: 2px;
+}
+relationship.UNCLE_OF {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  shaft-width: 2px;
+}
+relationship.AUNTY_OF {
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+  shaft-width: 2px;
 }
 relationship {
   color: #A5ABB6;
