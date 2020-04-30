@@ -1,0 +1,27 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:Description
+	rdf:type rdfs:Class ;
+	rdf:comment "Describes about thing".
+	
+:Weight
+	rdf:type rdfs:Class ;
+	rdf:comment "Gives weight".
+	
+:Voltage
+	rdf:type rdfs:Class ;
+	rdf:comment "Details on required voltage".
+	
+:Model
+	rdf:type rdfs:Class ;
+	rdfs:label "Model" .
+	
+:Has_Weight
+	rdf:type rdf:Property;
+	rdfs:domain ab:Model;
+	rdfs.range ab:Weight .
+	
+:WM3997HWA a :Model .
+:250kg a :Weight .
+:WM3997HWA :Has_Weight :250kg .
