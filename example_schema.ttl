@@ -20,8 +20,6 @@
 :Has_Weight
 	rdf:type rdf:Property;
 	rdfs:domain :Model;
-	rdfs.range :Weight .
+	rdfs:range :Weight .
 	
 :WM3997HWA a :Model .
-:250kg a :Weight .
-:WM3997HWA :Has_Weight :250kg .
