@@ -17,3 +17,12 @@ neo4voc:Voltage
 neo4voc:Model
 	rdf:type rdfs:Class ;
 	rdfs:label "Model" .
+	
+neo4voc:Has_Weight
+	rdf:type rdf:Property;
+	rdfs:domain neo4voc:Model;
+	rdfs:range neo4voc:Weight .
+	
+neo4voc:WM3997HWA a neo4voc:Model .
+neo4voc:ten a neo4voc:Weight .
+neo4voc:WM3997HWA neo4voc:Has_Weight neo4voc:ten .
