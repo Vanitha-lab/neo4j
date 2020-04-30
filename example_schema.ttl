@@ -1,25 +1,28 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix neo4voc: <http://neo4j.org/vocab/sw#> .
 
-:Description
+neo4voc:Description
 	rdf:type rdfs:Class ;
 	rdf:comment "Describes about thing".
 	
-:Weight
+neo4voc:Weight
 	rdf:type rdfs:Class ;
 	rdf:comment "Gives weight".
 	
-:Voltage
+neo4voc:Voltage
 	rdf:type rdfs:Class ;
 	rdf:comment "Details on required voltage".
 	
-:Model
+neo4voc:Model
 	rdf:type rdfs:Class ;
 	rdfs:label "Model" .
 	
-:Has_Weight
+neo4voc:Has_Weight
 	rdf:type rdf:Property;
 	rdfs:domain :Model;
 	rdfs:range :Weight .
 	
-:WM3997HWA a :Model .
+neo4voc:WM3997HWA a neo4voc:Model .
+neo4voc:ten a neo4voc:Weight .
+neo4voc:WM3997HWA neo4voc:Has_Weight neo4voc:ten .
