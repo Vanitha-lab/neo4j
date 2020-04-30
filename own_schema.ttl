@@ -4,4 +4,4 @@
 
 neo4voc:Model
 	rdf:type rdfs:Class ;
-	rdfs:label "Model" ;
+	rdfs:label "Model" .
