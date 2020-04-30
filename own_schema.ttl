@@ -1,4 +1,4 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix neo4voc: <http://neo4j.org/vocab/sw#> .
 @prefix neo4ind: <http://neo4j.org/ind#> .
 
