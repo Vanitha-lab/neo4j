@@ -20,8 +20,8 @@ neo4voc:Model
 	
 neo4voc:Has_Weight
 	rdf:type rdf:Property;
-	rdfs:domain :Model;
-	rdfs:range :Weight .
+	rdfs:domain neo4voc:Model;
+	rdfs:range neo4voc:Weight .
 	
 neo4voc:WM3997HWA a neo4voc:Model .
 neo4voc:ten a neo4voc:Weight .
